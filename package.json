@@ -1,0 +1,26 @@
+{
+  "name": "ans-api-wrapper",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "JS API wrapper for ANS",
+  "main": "./src/api.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decentldotland/ans-api-wrapper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/decentldotland/ans-api-wrapper/issues"
+  },
+  "homepage": "https://github.com/decentldotland/ans-api-wrapper#readme",
+  "scripts": {
+    "start": "node ./src/api.js"
+  },
+  "keywords": ["ANS", "Arweave", "web3", "domains"],
+  "author": "charmful0x",
+  "license": "MIT",
+  "dependencies": {
+    "arweave": "^1.10.23",
+    "axios": "^0.25.0",
+    "smartweave": "^0.4.46"
+  }
+}
